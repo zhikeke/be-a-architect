@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/about-maven/about-maven.iml" filepath="$PROJECT_DIR$/about-maven/about-maven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/about-maven/all-test/all-test.iml" filepath="$PROJECT_DIR$/about-maven/all-test/all-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/be-a-architect.iml" filepath="$PROJECT_DIR$/be-a-architect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/about-maven/build-plugin/build-plugin.iml" filepath="$PROJECT_DIR$/about-maven/build-plugin/build-plugin.iml" />
     </modules>
   </component>
 </project>

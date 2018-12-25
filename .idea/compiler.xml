@@ -6,11 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="be-a-architect" />
+        <module name="all-test" />
+        <module name="build-plugin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="about-maven" target="1.5" />
+      <module name="all-test" target="1.5" />
       <module name="be-a-architect" target="1.5" />
+      <module name="build-plugin" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
