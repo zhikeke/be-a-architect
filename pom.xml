@@ -11,8 +11,19 @@
     <description>努力成为一个架构师吧！！！</description>
     <modules>
         <module>about-maven</module>
+        <module>about-spring</module>
     </modules>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.2</version>
+                <scope>provided</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
 
 </project>

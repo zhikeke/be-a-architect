@@ -3,9 +3,19 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/about-maven/about-maven.iml" filepath="$PROJECT_DIR$/about-maven/about-maven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/about-spring/about-spring.iml" filepath="$PROJECT_DIR$/about-spring/about-spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-maven/all-test/all-test.iml" filepath="$PROJECT_DIR$/about-maven/all-test/all-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/be-a-architect.iml" filepath="$PROJECT_DIR$/be-a-architect.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-maven/build-plugin/build-plugin.iml" filepath="$PROJECT_DIR$/about-maven/build-plugin/build-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/about-spring/design-patterns/delegate-pattern/delegate-pattern.iml" filepath="$PROJECT_DIR$/about-spring/design-patterns/delegate-pattern/delegate-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/about-spring/design-patterns/design-patterns.iml" filepath="$PROJECT_DIR$/about-spring/design-patterns/design-patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/about-spring/design-patterns/factory-pattern/factory-pattern.iml" filepath="$PROJECT_DIR$/about-spring/design-patterns/factory-pattern/factory-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/about-spring/design-patterns/prototype-pattern/prototype-pattern.iml" filepath="$PROJECT_DIR$/about-spring/design-patterns/prototype-pattern/prototype-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/about-spring/design-patterns/proxy-pattern/proxy-pattern.iml" filepath="$PROJECT_DIR$/about-spring/design-patterns/proxy-pattern/proxy-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/about-spring/design-patterns/singleton-pattern/singleton-pattern.iml" filepath="$PROJECT_DIR$/about-spring/design-patterns/singleton-pattern/singleton-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/about-spring/spring-aop/spring-aop.iml" filepath="$PROJECT_DIR$/about-spring/spring-aop/spring-aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/about-spring/spring-jdbc/spring-jdbc.iml" filepath="$PROJECT_DIR$/about-spring/spring-jdbc/spring-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/about-spring/design-patterns/template-pattern/template-pattern.iml" filepath="$PROJECT_DIR$/about-spring/design-patterns/template-pattern/template-pattern.iml" />
     </modules>
   </component>
 </project>

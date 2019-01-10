@@ -8,13 +8,31 @@
         <outputRelativeToContentRoot value="true" />
         <module name="all-test" />
         <module name="build-plugin" />
+        <module name="delegate-pattern" />
+        <module name="factory-pattern" />
+        <module name="prototype-pattern" />
+        <module name="proxy-pattern" />
+        <module name="singleton-pattern" />
+        <module name="spring-aop" />
+        <module name="spring-jdbc" />
+        <module name="template-pattern" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="about-maven" target="1.5" />
+      <module name="about-spring" target="1.5" />
       <module name="all-test" target="1.5" />
       <module name="be-a-architect" target="1.5" />
       <module name="build-plugin" target="1.5" />
+      <module name="delegate-pattern" target="1.5" />
+      <module name="design-patterns" target="1.5" />
+      <module name="factory-pattern" target="1.5" />
+      <module name="prototype-pattern" target="1.5" />
+      <module name="proxy-pattern" target="1.6" />
+      <module name="singleton-pattern" target="1.5" />
+      <module name="spring-aop" target="1.5" />
+      <module name="spring-jdbc" target="1.5" />
+      <module name="template-pattern" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

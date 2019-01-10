@@ -14,6 +14,11 @@
     <description>设计模式</description>
     <modules>
         <module>proxy-pattern</module>
+        <module>factory-pattern</module>
+        <module>singleton-pattern</module>
+        <module>delegate-pattern</module>
+        <module>prototype-pattern</module>
+        <module>template-pattern</module>
     </modules>
 
     <!--<dependencies>-->
