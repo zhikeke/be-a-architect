@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/about-distribute/about-distribute.iml" filepath="$PROJECT_DIR$/about-distribute/about-distribute.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-maven/about-maven.iml" filepath="$PROJECT_DIR$/about-maven/about-maven.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-spring/about-spring.iml" filepath="$PROJECT_DIR$/about-spring/about-spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-maven/all-test/all-test.iml" filepath="$PROJECT_DIR$/about-maven/all-test/all-test.iml" />
@@ -12,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/about-spring/design-patterns/factory-pattern/factory-pattern.iml" filepath="$PROJECT_DIR$/about-spring/design-patterns/factory-pattern/factory-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-spring/design-patterns/prototype-pattern/prototype-pattern.iml" filepath="$PROJECT_DIR$/about-spring/design-patterns/prototype-pattern/prototype-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-spring/design-patterns/proxy-pattern/proxy-pattern.iml" filepath="$PROJECT_DIR$/about-spring/design-patterns/proxy-pattern/proxy-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/about-distribute/rmi/rmi.iml" filepath="$PROJECT_DIR$/about-distribute/rmi/rmi.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-spring/design-patterns/singleton-pattern/singleton-pattern.iml" filepath="$PROJECT_DIR$/about-spring/design-patterns/singleton-pattern/singleton-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-spring/spring-aop/spring-aop.iml" filepath="$PROJECT_DIR$/about-spring/spring-aop/spring-aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-spring/spring-jdbc/spring-jdbc.iml" filepath="$PROJECT_DIR$/about-spring/spring-jdbc/spring-jdbc.iml" />

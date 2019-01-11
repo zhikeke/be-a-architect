@@ -12,6 +12,7 @@
     <modules>
         <module>about-maven</module>
         <module>about-spring</module>
+        <module>about-distribute</module>
     </modules>
 
     <dependencyManagement>
