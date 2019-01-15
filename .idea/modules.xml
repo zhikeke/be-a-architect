@@ -18,6 +18,8 @@
       <module fileurl="file://$PROJECT_DIR$/about-spring/spring-aop/spring-aop.iml" filepath="$PROJECT_DIR$/about-spring/spring-aop/spring-aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-spring/spring-jdbc/spring-jdbc.iml" filepath="$PROJECT_DIR$/about-spring/spring-jdbc/spring-jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-spring/design-patterns/template-pattern/template-pattern.iml" filepath="$PROJECT_DIR$/about-spring/design-patterns/template-pattern/template-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/about-distribute/zookeeper/zookeeper.iml" filepath="$PROJECT_DIR$/about-distribute/zookeeper/zookeeper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/about-distribute/zookeeper-distribute-lock/zookeeper-distribute-lock.iml" filepath="$PROJECT_DIR$/about-distribute/zookeeper-distribute-lock/zookeeper-distribute-lock.iml" />
     </modules>
   </component>
 </project>
