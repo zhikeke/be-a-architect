@@ -19,6 +19,7 @@
         <module name="template-pattern" />
         <module name="zookeeper" />
         <module name="zookeeper-distribute-lock" />
+        <module name="zookeeper-master-election" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -40,6 +41,7 @@
       <module name="template-pattern" target="1.5" />
       <module name="zookeeper" target="1.5" />
       <module name="zookeeper-distribute-lock" target="1.8" />
+      <module name="zookeeper-master-election" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

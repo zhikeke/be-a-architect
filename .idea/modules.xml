@@ -20,6 +20,7 @@
       <module fileurl="file://$PROJECT_DIR$/about-spring/design-patterns/template-pattern/template-pattern.iml" filepath="$PROJECT_DIR$/about-spring/design-patterns/template-pattern/template-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-distribute/zookeeper/zookeeper.iml" filepath="$PROJECT_DIR$/about-distribute/zookeeper/zookeeper.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-distribute/zookeeper-distribute-lock/zookeeper-distribute-lock.iml" filepath="$PROJECT_DIR$/about-distribute/zookeeper-distribute-lock/zookeeper-distribute-lock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/about-distribute/zookeeper-master-election/zookeeper-master-election.iml" filepath="$PROJECT_DIR$/about-distribute/zookeeper-master-election/zookeeper-master-election.iml" />
     </modules>
   </component>
 </project>
