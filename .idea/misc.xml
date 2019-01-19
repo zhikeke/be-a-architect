@@ -8,6 +8,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/about-distribute/dubbo/pom.xml" />
         <option value="$PROJECT_DIR$/about-maven/pom.xml" />
         <option value="$PROJECT_DIR$/about-spring/proxy/pom.xml" />
       </set>

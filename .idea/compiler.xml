@@ -9,7 +9,10 @@
         <module name="all-test" />
         <module name="build-plugin" />
         <module name="delegate-pattern" />
+        <module name="dubbo-user" />
         <module name="factory-pattern" />
+        <module name="order-api" />
+        <module name="order-privoder" />
         <module name="prototype-pattern" />
         <module name="proxy-pattern" />
         <module name="rmi" />
@@ -31,7 +34,12 @@
       <module name="build-plugin" target="1.5" />
       <module name="delegate-pattern" target="1.5" />
       <module name="design-patterns" target="1.5" />
+      <module name="dubbo" target="1.5" />
+      <module name="dubbo-order" target="1.5" />
+      <module name="dubbo-user" target="1.5" />
       <module name="factory-pattern" target="1.5" />
+      <module name="order-api" target="1.5" />
+      <module name="order-privoder" target="1.5" />
       <module name="prototype-pattern" target="1.5" />
       <module name="proxy-pattern" target="1.6" />
       <module name="rmi" target="1.5" />

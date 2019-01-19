@@ -10,7 +10,11 @@
       <module fileurl="file://$PROJECT_DIR$/about-maven/build-plugin/build-plugin.iml" filepath="$PROJECT_DIR$/about-maven/build-plugin/build-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-spring/design-patterns/delegate-pattern/delegate-pattern.iml" filepath="$PROJECT_DIR$/about-spring/design-patterns/delegate-pattern/delegate-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-spring/design-patterns/design-patterns.iml" filepath="$PROJECT_DIR$/about-spring/design-patterns/design-patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/dubbo-order.iml" filepath="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/dubbo-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/about-distribute/dubbo/dubbo-user/dubbo-user.iml" filepath="$PROJECT_DIR$/about-distribute/dubbo/dubbo-user/dubbo-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-spring/design-patterns/factory-pattern/factory-pattern.iml" filepath="$PROJECT_DIR$/about-spring/design-patterns/factory-pattern/factory-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-api/order-api.iml" filepath="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-api/order-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-privoder/order-privoder.iml" filepath="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-privoder/order-privoder.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-spring/design-patterns/prototype-pattern/prototype-pattern.iml" filepath="$PROJECT_DIR$/about-spring/design-patterns/prototype-pattern/prototype-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-spring/design-patterns/proxy-pattern/proxy-pattern.iml" filepath="$PROJECT_DIR$/about-spring/design-patterns/proxy-pattern/proxy-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-distribute/rmi/rmi.iml" filepath="$PROJECT_DIR$/about-distribute/rmi/rmi.iml" />

@@ -33,8 +33,9 @@ public class MasterElection {
 
     ScheduledExecutorService scheduledExecutorService = Executors.newScheduledThreadPool(1);
 
-    public MasterElection(ClientCenter client) {
+    public MasterElection(ClientCenter client, ZkClient zkClient) {
         this.client = client;
+        this.zkClient = zkClient;
 
         this.dataListener = new IZkDataListener() {
             public void handleDataChange(String s, Object o) throws Exception {
@@ -42,6 +43,7 @@ public class MasterElection {
             }
 
             public void handleDataDeleted(String s) throws Exception {
+                System.out.println(client.getClientName() + " 捕捉到节点被删除事件");
                 // 如果节点被删除， 发起选主操作
                 chooseMaster();
             }
@@ -54,6 +56,8 @@ public class MasterElection {
            isRunning = true;
            // 注册节点事件
            zkClient.subscribeDataChanges(MASTER_ELECTION_PATH, dataListener);
+
+           System.out.println(client.getClientName() + " 注册成功, 开始选举master");
            chooseMaster();
        }
     }
@@ -77,7 +81,7 @@ public class MasterElection {
 
         try {
             // 尝试创建master 争取的 path
-            zkClient.createEphemeral(MASTER_ELECTION_PATH);
+            zkClient.createEphemeral(MASTER_ELECTION_PATH, client);
             // 创建成功, 当前client 即为 master
             masterClient = client;
 
@@ -99,9 +103,10 @@ public class MasterElection {
 
     // 释放master
     private void releaseMaster() {
-      if (isMaster()) {
-          zkClient.delete(MASTER_ELECTION_PATH, -1);
-      }
+        System.out.println(client.getClientName() + " 触发删除节点事件");
+        if (isMaster()) {
+           zkClient.delete(MASTER_ELECTION_PATH, -1);
+        }
     }
 
     // 当前client 是否为master

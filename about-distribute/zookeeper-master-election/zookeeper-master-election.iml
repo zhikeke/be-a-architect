@@ -19,5 +19,9 @@
     <orderEntry type="library" name="Maven: org.apache.yetus:audience-annotations:0.5.0" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty:3.10.6.Final" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.6.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.curator:curator-recipes:4.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.curator:curator-framework:4.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.curator:curator-client:4.1.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:20.0" level="project" />
   </component>
 </module>

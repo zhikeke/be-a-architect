@@ -3,22 +3,14 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>be-a-architect</artifactId>
+        <artifactId>dubbo-order</artifactId>
         <groupId>com.ke</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>about-distribute</artifactId>
-    <packaging>pom</packaging>
-    <description>分布式专题</description>
-    <modules>
-        <module>rmi</module>
-        <module>zookeeper</module>
-        <module>zookeeper-distribute-lock</module>
-        <module>zookeeper-master-election</module>
-        <module>dubbo</module>
-    </modules>
+    <artifactId>order-api</artifactId>
+    <description>对外提供服务接口api</description>
 
 
 </project>

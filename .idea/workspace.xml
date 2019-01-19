@@ -1,26 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d863dc4-cd3e-4016-83d3-7c7358047fd1" name="Default" comment="rmi模块： 手写rmi大致框架">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_10_6_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_yetus_audience_annotations_0_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/about-distribute/zookeeper-master-election/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/about-distribute/zookeeper-master-election/src/main/java/com/ke/zkClient/ClientCenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/about-distribute/zookeeper-master-election/src/main/java/com/ke/zkClient/MasterElection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/about-distribute/zookeeper-master-election/zookeeper-master-election.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_10_5_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about-distribute/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/about-distribute/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about-distribute/rmi/rmi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/about-distribute/rmi/rmi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about-distribute/zookeeper-distribute-lock/zookeeper-distribute-lock.iml" beforeDir="false" afterPath="$PROJECT_DIR$/about-distribute/zookeeper-distribute-lock/zookeeper-distribute-lock.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about-distribute/zookeeper/zookeeper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/about-distribute/zookeeper/zookeeper.iml" afterDir="false" />
+    <list default="true" id="7d863dc4-cd3e-4016-83d3-7c7358047fd1" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_dubbo_2_5_3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_sgroschupf_zkclient_0_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_10_5_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_14.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_4_1_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_4_1_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_recipes_4_1_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_3_3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_15_0_GA.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_netty_netty_3_2_5_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_2_5_6_SEC03.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/dubbo-order.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-api/order-api.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-api/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-api/src/main/java/com/ke/IOrderServicce.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-api/src/main/java/com/ke/OrderServiceRequest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-api/src/main/java/com/ke/OrderServiceResponse.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-privoder/order-privoder.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-privoder/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-privoder/src/main/java/com/ke/App.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-privoder/src/main/java/com/ke/OrderService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-privoder/src/main/resources/META-INF/spring/order-provider.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-privoder/src/main/resources/log4j.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/about-distribute/dubbo/dubbo-user/dubbo-user.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/about-distribute/dubbo/dubbo-user/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/about-distribute/dubbo/dubbo-user/src/main/java/com/ke/UserService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/about-distribute/dubbo/dubbo-user/src/main/resources/order-comsumer.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/about-distribute/dubbo/dubbo.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/about-distribute/dubbo/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/about-distribute/zookeeper-master-election/src/main/java/com/ke/curator/MasterElection.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/about-distribute/zookeeper-master-election/src/main/java/com/ke/zkClient/MasterChooseTest.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/about-distribute/pom.xml" afterPath="$PROJECT_DIR$/about-distribute/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/about-distribute/zookeeper-distribute-lock/zookeeper-distribute-lock.iml" afterPath="$PROJECT_DIR$/about-distribute/zookeeper-distribute-lock/zookeeper-distribute-lock.iml" />
+      <change beforePath="$PROJECT_DIR$/about-distribute/zookeeper-master-election/pom.xml" afterPath="$PROJECT_DIR$/about-distribute/zookeeper-master-election/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/about-distribute/zookeeper-master-election/src/main/java/com/ke/zkClient/ClientCenter.java" afterPath="$PROJECT_DIR$/about-distribute/zookeeper-master-election/src/main/java/com/ke/zkClient/ClientCenter.java" />
+      <change beforePath="$PROJECT_DIR$/about-distribute/zookeeper-master-election/src/main/java/com/ke/zkClient/MasterElection.java" afterPath="$PROJECT_DIR$/about-distribute/zookeeper-master-election/src/main/java/com/ke/zkClient/MasterElection.java" />
+      <change beforePath="$PROJECT_DIR$/about-distribute/zookeeper-master-election/zookeeper-master-election.iml" afterPath="$PROJECT_DIR$/about-distribute/zookeeper-master-election/zookeeper-master-election.iml" />
+      <change beforePath="$PROJECT_DIR$/about-distribute/zookeeper/zookeeper.iml" afterPath="$PROJECT_DIR$/about-distribute/zookeeper/zookeeper.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,12 +67,18 @@
     <ignored path="$PROJECT_DIR$/about-spring/spring-aop/target/" />
     <ignored path="$PROJECT_DIR$/about-spring/design-patterns/singleton-pattern/target/" />
     <ignored path="$PROJECT_DIR$/about-spring/spring-jdbc/target/" />
-    <ignored path="$PROJECT_DIR$/about-distribute/zookeeper/target/" />
     <ignored path="$PROJECT_DIR$/about-distribute/target/" />
-    <ignored path="$PROJECT_DIR$/about-distribute/zookeeper-master-election/target/" />
-    <ignored path="$PROJECT_DIR$/about-distribute/zookeeper-distribute-lock/target/" />
     <ignored path="$PROJECT_DIR$/about-distribute/rmi/target/" />
+    <ignored path="$PROJECT_DIR$/about-distribute/zookeeper/target/" />
+    <ignored path="$PROJECT_DIR$/about-distribute/zookeeper-distribute-lock/target/" />
+    <ignored path="$PROJECT_DIR$/about-distribute/zookeeper-master-election/target/" />
+    <ignored path="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/target/" />
+    <ignored path="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-privoder/target/" />
+    <ignored path="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-api/target/" />
+    <ignored path="$PROJECT_DIR$/about-distribute/dubbo/target/" />
+    <ignored path="$PROJECT_DIR$/about-distribute/dubbo/dubbo-user/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,42 +86,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/about-distribute/zookeeper-master-election/pom.xml">
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/about-distribute/dubbo/dubbo-user/src/main/java/com/ke/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/about-distribute/zookeeper-master-election/src/main/java/com/ke/zkClient/ClientCenter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-              <folding>
-                <element signature="e#217#218#0" expanded="true" />
-                <element signature="e#248#249#0" expanded="true" />
-                <element signature="e#294#295#0" expanded="true" />
-                <element signature="e#334#335#0" expanded="true" />
-                <element signature="e#371#372#0" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
-                <element signature="e#456#457#0" expanded="true" />
-                <element signature="e#500#501#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/about-distribute/zookeeper-master-election/src/main/java/com/ke/zkClient/MasterElection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="64" column="48" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
+            <state relative-caret-position="585">
+              <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="order-comsumer.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/about-distribute/dubbo/dubbo-user/src/main/resources/order-comsumer.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="31" column="48" lean-forward="false" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="48" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -96,32 +114,28 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>创建连接成功</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
-    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/about-spring/design-patterns/singleton-pattern/src/main/java/com.ke/Singleton2.java" />
-        <option value="$PROJECT_DIR$/about-spring/design-patterns/singleton-pattern/src/main/java/com.ke/Singleton3.java" />
-        <option value="$PROJECT_DIR$/about-spring/design-patterns/singleton-pattern/src/main/java/com.ke/Singleton6.java" />
-        <option value="$PROJECT_DIR$/about-spring/design-patterns/singleton-pattern/src/main/java/com.ke/Singleton4.java" />
-        <option value="$PROJECT_DIR$/about-spring/design-patterns/singleton-pattern/pom.xml" />
-        <option value="$PROJECT_DIR$/about-spring/design-patterns/delegate-pattern/src/main/java/com/ke/IExcutor.java" />
-        <option value="$PROJECT_DIR$/about-spring/design-patterns/delegate-pattern/src/main/java/com/ke/IExecutor.java" />
-        <option value="$PROJECT_DIR$/about-spring/design-patterns/delegate-pattern/src/main/java/com/ke/ExectorA.java" />
-        <option value="$PROJECT_DIR$/about-spring/design-patterns/delegate-pattern/src/main/java/com/ke/ExectorB.java" />
-        <option value="$PROJECT_DIR$/about-spring/design-patterns/delegate-pattern/src/main/java/com/ke/DeletateTest.java" />
-        <option value="$PROJECT_DIR$/about-spring/design-patterns/delegate-pattern/src/main/java/com/ke/Manager.java" />
-        <option value="$PROJECT_DIR$/about-spring/design-patterns/delegate-pattern/pom.xml" />
-        <option value="$PROJECT_DIR$/about-spring/design-patterns/prototype-pattern/pom.xml" />
         <option value="$PROJECT_DIR$/about-spring/design-patterns/prototype-pattern/src/main/java/com/ke/Prototype.java" />
         <option value="$PROJECT_DIR$/about-spring/design-patterns/prototype-pattern/src/main/java/com/ke/ConcretePrototype.java" />
         <option value="$PROJECT_DIR$/about-spring/design-patterns/prototype-pattern/src/main/java/com/ke/PrototypeTest.java" />
@@ -147,27 +161,46 @@
         <option value="$PROJECT_DIR$/about-spring/spring-jdbc/src/main/java/com/ke/framework/QueryRuleSqlBulider.java" />
         <option value="$PROJECT_DIR$/about-spring/spring-jdbc/src/main/java/com/ke/framework/BaseDaoSupport.java" />
         <option value="$PROJECT_DIR$/about-spring/spring-jdbc/src/main/java/com/ke/framework/QueryRuleSqlBuilder.java" />
-        <option value="$PROJECT_DIR$/about-distribute/pom.xml" />
-        <option value="$PROJECT_DIR$/about-distribute/rmi/pom.xml" />
-        <option value="$PROJECT_DIR$/about-distribute/rmi/src/main/java/com.ke/User.java" />
-        <option value="$PROJECT_DIR$/about-distribute/rmi/src/main/java/com.ke/User_skeleton.java" />
-        <option value="$PROJECT_DIR$/about-distribute/rmi/src/main/java/com.ke/User_stub.java" />
-        <option value="$PROJECT_DIR$/about-distribute/rmi/src/main/java/com.ke/UserServer.java" />
-        <option value="$PROJECT_DIR$/about-distribute/rmi/src/main/java/com.ke/Client.java" />
-        <option value="$PROJECT_DIR$/about-distribute/rmi/src/main/java/com.ke/User_Stub.java" />
-        <option value="$PROJECT_DIR$/about-distribute/rmi/src/main/java/com.ke/UserClient.java" />
-        <option value="$PROJECT_DIR$/about-distribute/rmi/src/main/java/com.ke/User_Skeleton.java" />
-        <option value="$PROJECT_DIR$/about-distribute/zookeeper-master-election/pom.xml" />
+        <option value="$PROJECT_DIR$/about-distribute/zookeeper/src/main/java/ZookeeperServer.java" />
+        <option value="$PROJECT_DIR$/about-distribute/zookeeper/pom.xml" />
+        <option value="$PROJECT_DIR$/about-distribute/zookeeper/src/main/java/com/ke/ZookeeperServer.java" />
+        <option value="$PROJECT_DIR$/about-distribute/zookeeper-distribute-lock/pom.xml" />
+        <option value="$PROJECT_DIR$/about-distribute/zookeeper-distribute-lock/src/main/java/zookeeper_native/LockWatcher.java" />
+        <option value="$PROJECT_DIR$/about-distribute/zookeeper-distribute-lock/src/main/java/zookeeper_native/ZookeeperClient.java" />
+        <option value="$PROJECT_DIR$/about-distribute/zookeeper-distribute-lock/src/main/java/zookeeper_native/DistributeLock.java" />
         <option value="$PROJECT_DIR$/about-distribute/zookeeper-master-election/src/main/java/com/ke/zkClient/ClientCenter.java" />
+        <option value="$PROJECT_DIR$/about-distribute/zookeeper-master-election/src/main/java/com/ke/zkClient/MasterChooseTest.java" />
         <option value="$PROJECT_DIR$/about-distribute/zookeeper-master-election/src/main/java/com/ke/zkClient/MasterElection.java" />
+        <option value="$PROJECT_DIR$/about-distribute/zookeeper-master-election/pom.xml" />
+        <option value="$PROJECT_DIR$/about-distribute/zookeeper-master-election/src/main/java/com/ke/curator/MasterElection.java" />
+        <option value="$PROJECT_DIR$/about-distribute/dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-api/src/main/java/com/ke/OrderServiceResponse.java" />
+        <option value="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-api/src/main/java/com/ke/IOrderServicce.java" />
+        <option value="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-api/pom.xml" />
+        <option value="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/pom.xml" />
+        <option value="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-privoder/src/main/java/com/ke/OrderService.java" />
+        <option value="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-privoder/src/main/java/com/ke/App.java" />
+        <option value="$PROJECT_DIR$/about-distribute/dubbo/dubbo-user/src/main/resources/comsumer-provider.xml" />
+        <option value="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-api/src/main/java/com/ke/OrderServiceRequest.java" />
+        <option value="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-privoder/src/main/resources/META-INF/spring/order-provider.xml" />
+        <option value="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-privoder/pom.xml" />
+        <option value="$PROJECT_DIR$/about-distribute/dubbo/dubbo-user/pom.xml" />
+        <option value="$PROJECT_DIR$/about-distribute/dubbo/dubbo-user/src/main/java/com/ke/UserService.java" />
+        <option value="$PROJECT_DIR$/about-distribute/dubbo/dubbo-user/src/main/resources/order-comsumer.xml" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="E:/apache-maven-3.6.0" />
-        <option name="userSettingsFile" value="E:\apache-maven-3.6.0\conf\settings.xml" />
+        <option name="mavenHome" value="E:/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.5.2\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -183,15 +216,58 @@
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Abstraction issuesJava</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Security issuesJava</id>
+          </State>
+          <State>
+            <id>Serialization issuesJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SerializableHasSerialVersionUIDField</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,20 +284,36 @@
               <item name="be-a-architect" type="b2602c69:ProjectViewProjectNode" />
               <item name="be-a-architect" type="462c0819:PsiDirectoryNode" />
               <item name="about-distribute" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper-master-election" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="be-a-architect" type="b2602c69:ProjectViewProjectNode" />
               <item name="be-a-architect" type="462c0819:PsiDirectoryNode" />
               <item name="about-distribute" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper-master-election" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="be-a-architect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="be-a-architect" type="462c0819:PsiDirectoryNode" />
+              <item name="about-distribute" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="be-a-architect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="be-a-architect" type="462c0819:PsiDirectoryNode" />
+              <item name="about-distribute" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-user" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="be-a-architect" type="b2602c69:ProjectViewProjectNode" />
               <item name="be-a-architect" type="462c0819:PsiDirectoryNode" />
               <item name="about-distribute" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper-master-election" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-user" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -229,41 +321,64 @@
               <item name="be-a-architect" type="b2602c69:ProjectViewProjectNode" />
               <item name="be-a-architect" type="462c0819:PsiDirectoryNode" />
               <item name="about-distribute" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper-master-election" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-user" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="be-a-architect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="be-a-architect" type="462c0819:PsiDirectoryNode" />
+              <item name="about-distribute" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ke" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="be-a-architect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="be-a-architect" type="462c0819:PsiDirectoryNode" />
+              <item name="about-distribute" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/AllWorkSpace/idea/be-a-architect/about-spring/design-patterns/proxy-pattern/src/main/java/com.ke/cglib/MatchMaker.java" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547613464487" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.1546875" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/AllWorkSpace/idea/be-a-architect/about-spring/design-patterns/proxy-pattern/src/main/java/com.ke/cglib/MatchMaker.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../boss" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\AllWorkSpace\idea\be-a-architect\about-distribute\dubbo\dubbo-user\src\main\resources" />
+      <recent name="E:\AllWorkSpace\idea\be-a-architect\about-distribute\dubbo\dubbo-order\order-privoder\src\main\resources\META-INF" />
+      <recent name="E:\AllWorkSpace\idea\be-a-architect\about-distribute\dubbo\dubbo-order\order-privoder\src\main\resources" />
       <recent name="E:\AllWorkSpace\idea\be-a-architect\about-spring\spring-jdbc\src\main\java\com\ke\framework" />
       <recent name="E:\AllWorkSpace\idea\be-a-architect\about-spring\design-patterns\singleton-pattern\src\main\java\com.ke" />
-      <recent name="E:\AllWorkSpace\idea\be-a-architect\about-spring\design-patterns\factory-pattern\src\main\java\com.ke\abstr" />
-      <recent name="E:\AllWorkSpace\idea\be-a-architect\about-spring\design-patterns\proxy-pattern\src\main\java\com.ke\custom" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.ke.cglib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\AllWorkSpace\idea\be-a-architect\about-distribute\zookeeper-master-election\src\main\java\com\ke" />
       <recent name="E:\AllWorkSpace\idea\be-a-architect\about-spring\spring-aop\src\main\java\com\ke" />
       <recent name="E:\AllWorkSpace\idea\be-a-architect\about-spring\design-patterns\proxy-pattern\src\main\java\com.ke" />
     </key>
@@ -280,125 +395,202 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UserClient">
-    <configuration default="true" type="Applet">
+  <component name="RunManager" selected="Application.UserService">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <module />
     </configuration>
-    <configuration name="QueryRuleSqlBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ke.framework.QueryRuleSqlBuilder" />
-      <module name="spring-jdbc" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ke.framework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestAop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ke.TestAop" />
-      <module name="spring-aop" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.ke.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ke.UserClient" />
-      <module name="rmi" />
+      <option name="MAIN_CLASS_NAME" value="com.ke.App" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="order-privoder" />
+      <envs />
+    </configuration>
+    <configuration name="DistributeLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="zookeeper_native.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="zookeeper_native.DistributeLock" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="zookeeper-distribute-lock" />
+      <envs />
+    </configuration>
+    <configuration name="MasterChooseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.ke.zkClient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.ke.zkClient.MasterChooseTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="zookeeper-master-election" />
+      <envs />
+    </configuration>
+    <configuration name="MasterElection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.ke.curator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.ke.curator.MasterElection" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="zookeeper-master-election" />
+      <envs />
+    </configuration>
+    <configuration name="UserService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.ke.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ke.UserServer" />
-      <module name="rmi" />
+      <option name="MAIN_CLASS_NAME" value="com.ke.UserService" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ke.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="dubbo-user" />
+      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-aop" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UserServiceTest" />
-      <option name="METHOD_NAME" value="testAdd" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
-    <configuration default="true" type="TestNG">
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
       <properties />
       <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file enabled="true" id="idea.log" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list>
-      <item itemvalue="Application.TestAop" />
-      <item itemvalue="Application.QueryRuleSqlBuilder" />
-      <item itemvalue="Application.UserServer" />
-      <item itemvalue="Application.UserClient" />
-      <item itemvalue="JUnit.UserServiceTest.testAdd" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.DistributeLock" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MasterChooseTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MasterElection" />
+      <item index="3" class="java.lang.String" itemvalue="Application.App" />
+      <item index="4" class="java.lang.String" itemvalue="Application.UserService" />
     </list>
     <recent_temporary>
-      <list>
-        <item itemvalue="Application.UserClient" />
-        <item itemvalue="Application.UserServer" />
-        <item itemvalue="Application.QueryRuleSqlBuilder" />
-        <item itemvalue="Application.TestAop" />
-        <item itemvalue="JUnit.UserServiceTest.testAdd" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.UserService" />
+        <item index="1" class="java.lang.String" itemvalue="Application.App" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MasterElection" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MasterChooseTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.DistributeLock" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
@@ -424,9 +616,13 @@
       <workItem from="1546654650919" duration="340000" />
       <workItem from="1546953892305" duration="1359000" />
       <workItem from="1547121251010" duration="153000" />
-      <workItem from="1547131378583" duration="15000" />
-      <workItem from="1547181130499" duration="1840000" />
-      <workItem from="1547613025875" duration="2102000" />
+      <workItem from="1547131378583" duration="152000" />
+      <workItem from="1547214587983" duration="68000" />
+      <workItem from="1547466070628" duration="3754000" />
+      <workItem from="1547551409849" duration="5097000" />
+      <workItem from="1547638170413" duration="5689000" />
+      <workItem from="1547724465019" duration="2382000" />
+      <workItem from="1547880898801" duration="9213000" />
     </task>
     <task id="LOCAL-00001" summary="1.添加 about-maven 模块,主要关于maven方面的知识&#10;  1) build-plugin 模块内容为创建一个自己的plugin&#10;  2) all-test 模块中添加了对自我创建的plugin 的引用方式">
       <created>1545745014830</created>
@@ -442,14 +638,21 @@
       <option name="project" value="LOCAL" />
       <updated>1545837822029</updated>
     </task>
-    <task id="LOCAL-00003" summary="rmi模块： 手写rmi大致框架">
-      <created>1547182958069</created>
+    <task id="LOCAL-00003" summary="1">
+      <created>1547131477522</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1547182958069</updated>
+      <updated>1547131477522</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="zookeeper模块: 模拟zookeeper客户端进行操作&#10;zookeeper-distribute-lock： 使用zookeeper进行分布式锁操作">
+      <created>1547564032633</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1547564032633</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -461,88 +664,92 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61752000" />
+    <option name="totallyTimeSpent" value="84150000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26862463" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32919955" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41722745" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.6493799" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32919955" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" visible="true" weight="0.32974428" />
-      <window_info anchor="bottom" id="Java Enterprise" order="9" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32919955" />
-      <window_info anchor="bottom" id="Spring" order="12" />
-      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="right" id="Bean Validation" order="0" />
-      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="JSF" order="4" weight="0.3299356" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.3299356" />
-      <window_info anchor="right" id="CDI" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="right" id="Palette&#9;" order="9" />
-      <window_info anchor="right" id="Capture Analysis" order="10" />
-      <window_info anchor="right" id="Theme Preview" order="11" />
-      <window_info anchor="right" id="Maven" order="12" weight="0.3295129" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.69673055" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35062006" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2607296" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29613733" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Image Layers" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32919955" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.45095828" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.6493799" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32919955" />
-      <window_info anchor="bottom" id="Java Enterprise" order="9" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32919955" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="4" weight="0.3299356" />
-      <window_info anchor="right" id="CDI" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.69673055" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2852311" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26126608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.添加 about-maven 模块,主要关于maven方面的知识&#10;  1) build-plugin 模块内容为创建一个自己的plugin&#10;  2) all-test 模块中添加了对自我创建的plugin 的引用方式" />
     <MESSAGE value="1.添加 about-spring 模块,主要关于spring方面的知识&#10;  1) proxy-pattern 模块实现动态代理方式和自定义动态代理" />
-    <MESSAGE value="rmi模块： 手写rmi大致框架" />
-    <option name="LAST_COMMIT_MESSAGE" value="rmi模块： 手写rmi大致框架" />
+    <MESSAGE value="1" />
+    <MESSAGE value="zookeeper模块: 模拟zookeeper客户端进行操作&#10;zookeeper-distribute-lock： 使用zookeeper进行分布式锁操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="zookeeper模块: 模拟zookeeper客户端进行操作&#10;zookeeper-distribute-lock： 使用zookeeper进行分布式锁操作" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -554,159 +761,24 @@
           <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
+      <option name="time" value="20" />
     </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/about-spring/design-patterns/template-pattern/src/main/java/com/ke/BrewCoffee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about-spring/design-patterns/template-pattern/src/main/java/com/ke/BrewTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about-spring/design-patterns/template-pattern/src/main/java/com/ke/TemplateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about-spring/design-patterns/template-pattern/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="43" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about-spring/design-patterns/singleton-pattern/src/main/java/com.ke/Singleton3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" selection-start-line="4" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about-spring/design-patterns/singleton-pattern/src/main/java/com.ke/Singleton2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about-spring/design-patterns/singleton-pattern/src/main/java/com.ke/Singleton1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about-spring/design-patterns/singleton-pattern/src/main/java/com.ke/Singleton4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about-spring/design-patterns/singleton-pattern/src/main/java/com.ke/Singleton5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about-spring/design-patterns/singleton-pattern/src/main/java/com.ke/Singleton6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="19" column="12" selection-start-line="17" selection-start-column="15" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about-spring/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.4/lombok-1.18.4.pom" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/annotation/ElementType.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.4/lombok-1.18.4.jar!/lombok/extern/slf4j/Slf4j.class" />
-    <entry file="file://$PROJECT_DIR$/about-spring/spring-aop/src/main/resources/application-aspect.xml" />
-    <entry file="file://$PROJECT_DIR$/about-spring/spring-aop/src/test/java/UserServiceTest.java" />
-    <entry file="file://$PROJECT_DIR$/about-spring/spring-aop/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about-spring/spring-aop/src/main/java/com/ke/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about-spring/spring-aop/src/main/java/com/ke/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about-spring/spring-aop/src/main/resources/application.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about-spring/spring-aop/src/main/java/com/ke/TestAop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about-spring/spring-aop/src/main/java/com/ke/aspect/LogAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about-spring/spring-jdbc/src/main/java/com/ke/framework/EntityClassUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="26" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about-spring/spring-jdbc/src/main/java/com/ke/framework/EntityOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7592">
-          <caret line="283" column="30" selection-start-line="283" selection-start-column="30" selection-end-line="283" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/about-spring/spring-jdbc/src/main/java/com/ke/framework/SqlBulider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1936">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/about-spring/spring-jdbc/spring-jdbc.iml">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/about-spring/spring-jdbc/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -715,173 +787,374 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/about-spring/spring-jdbc/src/main/java/com/ke/framework/QueryRuleSqlBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/about-spring/spring-jdbc/src/main/java/com/ke/framework/Order.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="7" />
+          <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/about-spring/spring-jdbc/src/main/java/com/ke/framework/BaseDaoSupport.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3699">
-          <caret line="137" column="2" selection-start-line="137" selection-start-column="2" selection-end-line="137" selection-end-column="2" />
+          <caret line="137" column="2" lean-forward="false" selection-start-line="137" selection-start-column="2" selection-end-line="137" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/Map.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/HashMap.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2754">
+          <caret line="128" column="17" lean-forward="false" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2835">
+          <caret line="137" column="13" lean-forward="false" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/about-spring/spring-jdbc/src/main/java/com/ke/framework/QueryRuleSqlBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11853">
-          <caret line="466" column="49" selection-start-line="466" selection-start-column="49" selection-end-line="466" selection-end-column="49" />
+          <caret line="466" column="49" lean-forward="false" selection-start-line="466" selection-start-column="49" selection-end-line="466" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/Hashtable.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/Hashtable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="131" column="22" lean-forward="false" selection-start-line="131" selection-start-column="12" selection-end-line="131" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/about-spring/spring-jdbc/src/main/java/com/ke/framework/QueryRule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
-          <caret line="43" column="14" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about-spring/design-patterns/proxy-pattern/src/main/java/com.ke/jdk/custom/KeMatchMaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about-spring/design-patterns/proxy-pattern/src/main/java/com.ke/cglib/MatchMaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about-spring/design-patterns/proxy-pattern/src/main/java/com.ke/cglib/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <caret line="43" column="14" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/about-spring/design-patterns/proxy-pattern/src/main/java/com.ke/jdk/custom/KeClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="189">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/about-spring/design-patterns/proxy-pattern/src/main/java/com.ke/jdk/MatchMaker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="36" />
+        <state relative-caret-position="405">
+          <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about-spring/design-patterns/proxy-pattern/src/main/java/com.ke/jdk/custom/KeMatchMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about-spring/design-patterns/proxy-pattern/src/main/java/com.ke/cglib/MatchMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about-spring/design-patterns/proxy-pattern/src/main/java/com.ke/cglib/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/about-spring/design-patterns/proxy-pattern/src/main/java/com.ke/cglib/TestFindLove.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="0" column="21" lean-forward="true" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about-distribute/pom.xml">
+    <entry file="file://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.10/zookeeper-3.4.10.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about-distribute/rmi/pom.xml">
+    <entry file="file://$PROJECT_DIR$/about-distribute/zookeeper/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        <state relative-caret-position="459">
+          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about-distribute/rmi/src/main/java/com.ke/UserClient.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.10/zookeeper-3.4.10.jar!/org/apache/zookeeper/data/ACL.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        <state relative-caret-position="162">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about-distribute/rmi/src/main/java/com.ke/User_Skeleton.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.10/zookeeper-3.4.10.jar!/org/apache/zookeeper/Watcher.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="184">
+          <caret line="55" column="12" lean-forward="false" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about-distribute/rmi/src/main/java/com.ke/User.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.10/zookeeper-3.4.10.jar!/org/apache/zookeeper/ZooKeeper.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#165#166#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="10611">
+          <caret line="393" column="15" lean-forward="false" selection-start-line="393" selection-start-column="11" selection-end-line="393" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about-distribute/rmi/src/main/java/com.ke/User_Stub.java">
+    <entry file="file://$PROJECT_DIR$/about-distribute/zookeeper-distribute-lock/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="513">
+          <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about-distribute/rmi/src/main/java/com.ke/UserServer.java">
+    <entry file="file://$PROJECT_DIR$/about-distribute/zookeeper/src/main/java/com/ke/ZookeeperServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+        <state relative-caret-position="432">
+          <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about-distribute/zookeeper-master-election/pom.xml">
+    <entry file="file://$PROJECT_DIR$/about-distribute/zookeeper-distribute-lock/src/main/java/zookeeper_native/DistributeLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        <state relative-caret-position="774">
+          <caret line="118" column="42" lean-forward="false" selection-start-line="118" selection-start-column="42" selection-end-line="118" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about-distribute/zookeeper-master-election/src/main/java/com/ke/zkClient/ClientCenter.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/concurrent/TimeUnit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-          <folding>
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="218">
+          <caret line="119" column="11" lean-forward="false" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about-distribute/zookeeper-distribute-lock/src/main/java/zookeeper_native/ZookeeperClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="25" column="65" lean-forward="false" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about-distribute/zookeeper-distribute-lock/src/main/java/zookeeper_native/LockWatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/101tec/zkclient/0.11/zkclient-0.11.jar!/org/I0Itec/zkclient/ZkClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="285" column="16" lean-forward="false" selection-start-line="285" selection-start-column="16" selection-end-line="285" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/about-distribute/zookeeper-master-election/src/main/java/com/ke/zkClient/MasterElection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="64" column="48" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
+        <state relative-caret-position="-558">
+          <caret line="45" column="62" lean-forward="false" selection-start-line="45" selection-start-column="62" selection-end-line="45" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about-distribute/zookeeper-master-election/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about-distribute/zookeeper-master-election/src/main/java/com/ke/zkClient/ClientCenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about-distribute/zookeeper-master-election/src/main/java/com/ke/zkClient/MasterChooseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="9" column="60" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about-distribute/zookeeper-master-election/src/main/java/com/ke/curator/MasterElection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="23" column="79" lean-forward="false" selection-start-line="23" selection-start-column="79" selection-end-line="23" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about-distribute/dubbo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-api/src/main/java/com/ke/OrderServiceResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding>
+            <element signature="e#273#274#0" expanded="false" />
+            <element signature="e#300#301#0" expanded="false" />
+            <element signature="e#340#341#0" expanded="false" />
+            <element signature="e#372#373#0" expanded="false" />
+            <element signature="e#403#404#0" expanded="false" />
+            <element signature="e#430#431#0" expanded="false" />
+            <element signature="e#470#471#0" expanded="false" />
+            <element signature="e#502#503#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-api/src/main/java/com/ke/IOrderServicce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about-maven/build-plugin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about-maven/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about-maven/all-test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-privoder/src/main/java/com/ke/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-privoder/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-api/src/main/java/com/ke/OrderServiceRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="42" column="27" lean-forward="false" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+          <folding>
+            <element signature="e#710#711#0" expanded="false" />
+            <element signature="e#748#749#0" expanded="false" />
+            <element signature="e#780#781#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-privoder/src/main/java/com/ke/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-privoder/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="31" column="21" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="31" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about-distribute/dubbo/dubbo-user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-privoder/src/main/resources/META-INF/spring/order-provider.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="34" column="65" lean-forward="false" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about-distribute/dubbo/dubbo-user/src/main/java/com/ke/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about-distribute/dubbo/dubbo-user/src/main/resources/order-comsumer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="31" column="48" lean-forward="false" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -937,7 +1210,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>spring-jdbc</last-edited>
+          <last-edited>order-privoder</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -1,9 +1,11 @@
 package com.ke.zkClient;
 
+import java.io.Serializable;
+
 /**
  * 客户端
  */
-public class ClientCenter {
+public class ClientCenter implements Serializable{
     /**
      * 客户端id
      */
