@@ -13,8 +13,15 @@
       <module fileurl="file://$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/dubbo-order.iml" filepath="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/dubbo-order.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-distribute/dubbo/dubbo-user/dubbo-user.iml" filepath="$PROJECT_DIR$/about-distribute/dubbo/dubbo-user/dubbo-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-spring/design-patterns/factory-pattern/factory-pattern.iml" filepath="$PROJECT_DIR$/about-spring/design-patterns/factory-pattern/factory-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/about-distribute/io/io.iml" filepath="$PROJECT_DIR$/about-distribute/io/io.iml" />
+      <module fileurl="file://$PROJECT_DIR$/about-distribute/netty-chat/netty-chat.iml" filepath="$PROJECT_DIR$/about-distribute/netty-chat/netty-chat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/about-distribute/netty-rpc/netty-rpc.iml" filepath="$PROJECT_DIR$/about-distribute/netty-rpc/netty-rpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/about-distribute/netty-tomcat/netty-tomcat.iml" filepath="$PROJECT_DIR$/about-distribute/netty-tomcat/netty-tomcat.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-api/order-api.iml" filepath="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-api/order-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-privoder/order-privoder.iml" filepath="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-privoder/order-privoder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/about-distribute/dubbo/dubbo-order-1/order-privoder/order-privoder (1).iml" filepath="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order-1/order-privoder/order-privoder (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-provider-2/order-provider-2.iml" filepath="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-provider-2/order-provider-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/about-distribute/dubbo/dubbo-order-1/order-api/orderapi.iml" filepath="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order-1/order-api/orderapi.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-spring/design-patterns/prototype-pattern/prototype-pattern.iml" filepath="$PROJECT_DIR$/about-spring/design-patterns/prototype-pattern/prototype-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-spring/design-patterns/proxy-pattern/proxy-pattern.iml" filepath="$PROJECT_DIR$/about-spring/design-patterns/proxy-pattern/proxy-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-distribute/rmi/rmi.iml" filepath="$PROJECT_DIR$/about-distribute/rmi/rmi.iml" />

@@ -29,7 +29,8 @@
     <dubbo:registry protocol="zookeeper" address="127.0.0.1:2181"/>
 
     <!-- 生成一个远程服务调用代理 -->
-    <dubbo:reference id="orderService" interface="com.ke.IOrderServicce"/>
+    <dubbo:reference id="orderService" interface="com.ke.IOrderService" protocol="hessian"/>
 
-
+    <!-- 生成一个远程服务调用代理 -->
+    <dubbo:reference id="orderQueryService" interface="com.ke.IOrderQueryService" protocol="dubbo"/>
 </beans>

@@ -11,8 +11,14 @@
         <module name="delegate-pattern" />
         <module name="dubbo-user" />
         <module name="factory-pattern" />
+        <module name="io" />
+        <module name="netty-chat" />
+        <module name="netty-rpc" />
+        <module name="netty-tomcat" />
         <module name="order-api" />
         <module name="order-privoder" />
+        <module name="order-provider-2" />
+        <module name="orderapi" />
         <module name="prototype-pattern" />
         <module name="proxy-pattern" />
         <module name="rmi" />
@@ -23,6 +29,12 @@
         <module name="zookeeper" />
         <module name="zookeeper-distribute-lock" />
         <module name="zookeeper-master-election" />
+      </profile>
+      <profile name="Annotation profile for be-a-architect" enabled="true">
+        <sourceOutputDir name="../../dubbo-order/order-privoder/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../dubbo-order/order-privoder/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="order-privoder (1)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -38,8 +50,17 @@
       <module name="dubbo-order" target="1.5" />
       <module name="dubbo-user" target="1.5" />
       <module name="factory-pattern" target="1.5" />
+      <module name="io" target="1.5" />
+      <module name="netty-chat" target="1.5" />
+      <module name="netty-rpc" target="1.5" />
+      <module name="netty-tomcat" target="1.5" />
       <module name="order-api" target="1.5" />
+      <module name="order-api (1)" target="1.5" />
+      <module name="order-api (2)" target="1.5" />
       <module name="order-privoder" target="1.5" />
+      <module name="order-privoder (1)" target="1.5" />
+      <module name="order-provider-2" target="1.5" />
+      <module name="orderapi" target="1.5" />
       <module name="prototype-pattern" target="1.5" />
       <module name="proxy-pattern" target="1.6" />
       <module name="rmi" target="1.5" />

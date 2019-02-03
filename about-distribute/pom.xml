@@ -18,6 +18,11 @@
         <module>zookeeper-distribute-lock</module>
         <module>zookeeper-master-election</module>
         <module>dubbo</module>
+        <module>dubbo/dubbo-order-1</module>
+        <module>io</module>
+        <module>netty-tomcat</module>
+        <module>netty-chat</module>
+        <module>netty-rpc</module>
     </modules>
 
 

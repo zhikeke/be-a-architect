@@ -9,16 +9,26 @@ public class UserService {
         ClassPathXmlApplicationContext context =
                 new ClassPathXmlApplicationContext("classpath:/order-comsumer.xml");
 
-        IOrderServicce orderServicce = (IOrderServicce) context.getBean("orderService");
+        IOrderService orderService = (IOrderService) context.getBean("orderService");
 
         OrderServiceRequest request = new OrderServiceRequest();
         request.setUserId("keke");
         request.setGoodsId("1000");
         request.setNums(10L);
 
-        OrderServiceResponse response = orderServicce.placeOrder(request);
+        OrderServiceResponse response = orderService.placeOrder(request);
 
         System.out.println(response.toString());
+
+        System.out.println("====================================");
+
+        for (int i = 0; i < 10; i ++) {
+            IOrderQueryService orderQueryService = (IOrderQueryService) context.getBean("orderQueryService");
+
+            System.out.println(orderQueryService.query(1000L));
+
+            System.out.println("====================================");
+        }
 
         System.in.read();
     }

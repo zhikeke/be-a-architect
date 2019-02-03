@@ -3,7 +3,7 @@ package com.ke;
 /**
  * 订单服务对外暴露接口
  */
-public interface IOrderServicce {
+public interface IOrderService {
 
     /**
      * 用户下单

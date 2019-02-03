@@ -1,9 +1,13 @@
 package com.ke;
 
+
+import org.springframework.stereotype.Service;
+
 /**
  * 订单服务实现类
  */
-public class OrderService implements IOrderServicce{
+@Service(value = "orderService")
+public class OrderService implements IOrderService{
 
     public OrderServiceResponse placeOrder(OrderServiceRequest orderServiceRequest) {
         System.out.println("-------------请求参数-----------");
