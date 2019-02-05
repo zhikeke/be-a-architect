@@ -23,6 +23,7 @@
         <module>netty-tomcat</module>
         <module>netty-chat</module>
         <module>netty-rpc</module>
+        <module>active-mq</module>
     </modules>
 
 
