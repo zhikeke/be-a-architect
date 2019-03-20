@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3ce1ddb-7fff-475c-9907-2afef81e4093" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/fanoutExchange/Consumer4FanoutExchange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/fanoutExchange/Provider4FanoutExchange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/confirm/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/confirm/Provider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/topicExchange/Provider4TopicExchange.java" beforeDir="false" afterPath="$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/topicExchange/Provider4TopicExchange.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-provider-2/target/" />
     <ignored path="$PROJECT_DIR$/about-spring/target/" />
@@ -46,35 +45,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/fanoutExchange/Consumer4FanoutExchange.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/fanoutExchange/Provider4FanoutExchange.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="21" column="51" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/topicExchange/Provider4TopicExchange.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -107,6 +78,10 @@
         <option value="$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/fanoutExchange/Consumer4FanoutExchange.java" />
         <option value="$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/fanoutExchange/Provider4FanoutExchange.java" />
         <option value="$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/topicExchange/Provider4TopicExchange.java" />
+        <option value="$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/confirm/Provider4DirectExchange.java" />
+        <option value="$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/confirm/Consumer4DirectExchange.java" />
+        <option value="$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/confirm/Consumer.java" />
+        <option value="$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/confirm/Provider.java" />
       </list>
     </option>
   </component>
@@ -209,27 +184,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="aboutrabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="confirm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="be-a-architect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="be-a-architect" type="462c0819:PsiDirectoryNode" />
+              <item name="about-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="aboutrabbitmq" type="462c0819:PsiDirectoryNode" />
               <item name="directExchange" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="be-a-architect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="be-a-architect" type="462c0819:PsiDirectoryNode" />
-              <item name="about-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aboutrabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="fanoutExchange" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="be-a-architect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="be-a-architect" type="462c0819:PsiDirectoryNode" />
-              <item name="about-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aboutrabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="topicExchange" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="be-a-architect" type="b2602c69:ProjectViewProjectNode" />
@@ -250,7 +215,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553063113527" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553073443813" />
     <property name="jdk.selected.JAVA_MODULE" value="1.7" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/about-spring/spring-mvc/target/spring-mvc-1.0-SNAPSHOT.war" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -262,6 +227,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\myself\idea_work_space\be-a-architect\about-rabbitmq\src\main\java\com\ke\aboutrabbitmq\confirm" />
       <recent name="D:\myself\idea_work_space\be-a-architect\about-rabbitmq\src\main\java\com\ke\aboutrabbitmq\fanoutExchange" />
       <recent name="D:\myself\idea_work_space\be-a-architect\about-rabbitmq\src\main\java\com\ke\aboutrabbitmq\topicExchange" />
     </key>
@@ -281,13 +247,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Provider4FanoutExchange">
-    <configuration name="Consumer4DirectExchange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ke.aboutrabbitmq.directExchange.Consumer4DirectExchange" />
+  <component name="RunManager" selected="Application.Provider">
+    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ke.aboutrabbitmq.confirm.Consumer" />
       <module name="about-rabbitmq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ke.aboutrabbitmq.directExchange.*" />
+          <option name="PATTERN" value="com.ke.aboutrabbitmq.confirm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -308,12 +274,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Consumer4TopicExchange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ke.aboutrabbitmq.topicExchange.Consumer4TopicExchange" />
+    <configuration name="Provider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ke.aboutrabbitmq.confirm.Provider" />
       <module name="about-rabbitmq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ke.aboutrabbitmq.topicExchange.*" />
+          <option name="PATTERN" value="com.ke.aboutrabbitmq.confirm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -487,11 +453,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Provider" />
+        <item itemvalue="Application.Consumer" />
         <item itemvalue="Application.Provider4FanoutExchange" />
         <item itemvalue="Application.Consumer4FanoutExchange" />
         <item itemvalue="Application.Provider4TopicExchange" />
-        <item itemvalue="Application.Consumer4TopicExchange" />
-        <item itemvalue="Application.Consumer4DirectExchange" />
       </list>
     </recent_temporary>
   </component>
@@ -510,7 +476,7 @@
       <workItem from="1552961902836" duration="1528000" />
       <workItem from="1552967274986" duration="92000" />
       <workItem from="1552967612186" duration="1912000" />
-      <workItem from="1553046875644" duration="12506000" />
+      <workItem from="1553046875644" duration="16586000" />
     </task>
     <task id="LOCAL-00001" summary="1. 加入spring-mvc模块  简单mvc&#10;2. 加入rabbitmq模块">
       <created>1553058087407</created>
@@ -526,11 +492,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553062051294</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="模拟rabbitmq fanoutExchange">
+      <created>1553063129989</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1553063129989</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16362000" />
+    <option name="totallyTimeSpent" value="20442000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -543,7 +516,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="1" />
@@ -551,11 +523,11 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.23134328" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.23134328" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.35900217" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.35900217" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.29175705" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -566,7 +538,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.329718" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.329718" />
       <window_info anchor="bottom" id="Application Servers" order="14" sideWeight="0.49946696" weight="0.329718" />
       <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.4989339" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -589,7 +561,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1. 加入spring-mvc模块  简单mvc&#10;2. 加入rabbitmq模块" />
     <MESSAGE value="模拟rabbitmq topicExchange" />
-    <option name="LAST_COMMIT_MESSAGE" value="模拟rabbitmq topicExchange" />
+    <MESSAGE value="模拟rabbitmq fanoutExchange" />
+    <option name="LAST_COMMIT_MESSAGE" value="模拟rabbitmq fanoutExchange" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/about-distribute/active-mq/src/main/java/com/ke/provider/ActiveMqProvider.java">
@@ -780,16 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/directExchange/Provider4DirectExchange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/topicExchange/Consumer4TopicExchange.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
@@ -821,8 +784,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/topicExchange/Provider4TopicExchange.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+        <state relative-caret-position="442">
+          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/directExchange/Provider4DirectExchange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven_repository/repository/com/rabbitmq/amqp-client/5.6.0/amqp-client-5.6.0.jar!/com/rabbitmq/client/impl/recovery/AutorecoveringChannel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="423" column="60" selection-start-line="423" selection-start-column="53" selection-end-line="423" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven_repository/repository/com/rabbitmq/amqp-client/5.6.0/amqp-client-5.6.0.jar!/com/rabbitmq/client/Channel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="151" column="11" selection-start-line="151" selection-start-column="11" selection-end-line="151" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/confirm/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/confirm/Provider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-78">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
