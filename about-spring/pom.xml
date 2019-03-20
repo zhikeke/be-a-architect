@@ -16,6 +16,7 @@
         <module>design-patterns</module>
         <module>spring-aop</module>
         <module>spring-jdbc</module>
+        <module>spring-mvc</module>
     </modules>
 
 

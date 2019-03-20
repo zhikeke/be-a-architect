@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/about-distribute/about-distribute.iml" filepath="$PROJECT_DIR$/about-distribute/about-distribute.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-maven/about-maven.iml" filepath="$PROJECT_DIR$/about-maven/about-maven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/about-rabbitmq/about-rabbitmq.iml" filepath="$PROJECT_DIR$/about-rabbitmq/about-rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-spring/about-spring.iml" filepath="$PROJECT_DIR$/about-spring/about-spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-distribute/active-mq/active-mq.iml" filepath="$PROJECT_DIR$/about-distribute/active-mq/active-mq.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-maven/all-test/all-test.iml" filepath="$PROJECT_DIR$/about-maven/all-test/all-test.iml" />
@@ -11,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/about-maven/build-plugin/build-plugin.iml" filepath="$PROJECT_DIR$/about-maven/build-plugin/build-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-spring/design-patterns/delegate-pattern/delegate-pattern.iml" filepath="$PROJECT_DIR$/about-spring/design-patterns/delegate-pattern/delegate-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-spring/design-patterns/design-patterns.iml" filepath="$PROJECT_DIR$/about-spring/design-patterns/design-patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/about-distribute/dubbo/dubbo.iml" filepath="$PROJECT_DIR$/about-distribute/dubbo/dubbo.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/dubbo-order.iml" filepath="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/dubbo-order.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-distribute/dubbo/dubbo-user/dubbo-user.iml" filepath="$PROJECT_DIR$/about-distribute/dubbo/dubbo-user/dubbo-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-spring/design-patterns/factory-pattern/factory-pattern.iml" filepath="$PROJECT_DIR$/about-spring/design-patterns/factory-pattern/factory-pattern.iml" />
@@ -20,15 +22,14 @@
       <module fileurl="file://$PROJECT_DIR$/about-distribute/netty-tomcat/netty-tomcat.iml" filepath="$PROJECT_DIR$/about-distribute/netty-tomcat/netty-tomcat.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-api/order-api.iml" filepath="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-api/order-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-privoder/order-privoder.iml" filepath="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-privoder/order-privoder.iml" />
-      <module fileurl="file://$PROJECT_DIR$/about-distribute/dubbo/dubbo-order-1/order-privoder/order-privoder (1).iml" filepath="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order-1/order-privoder/order-privoder (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-provider-2/order-provider-2.iml" filepath="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-provider-2/order-provider-2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/about-distribute/dubbo/dubbo-order-1/order-api/orderapi.iml" filepath="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order-1/order-api/orderapi.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-spring/design-patterns/prototype-pattern/prototype-pattern.iml" filepath="$PROJECT_DIR$/about-spring/design-patterns/prototype-pattern/prototype-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-spring/design-patterns/proxy-pattern/proxy-pattern.iml" filepath="$PROJECT_DIR$/about-spring/design-patterns/proxy-pattern/proxy-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-distribute/rmi/rmi.iml" filepath="$PROJECT_DIR$/about-distribute/rmi/rmi.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-spring/design-patterns/singleton-pattern/singleton-pattern.iml" filepath="$PROJECT_DIR$/about-spring/design-patterns/singleton-pattern/singleton-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-spring/spring-aop/spring-aop.iml" filepath="$PROJECT_DIR$/about-spring/spring-aop/spring-aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-spring/spring-jdbc/spring-jdbc.iml" filepath="$PROJECT_DIR$/about-spring/spring-jdbc/spring-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/about-spring/spring-mvc/spring-mvc.iml" filepath="$PROJECT_DIR$/about-spring/spring-mvc/spring-mvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-spring/design-patterns/template-pattern/template-pattern.iml" filepath="$PROJECT_DIR$/about-spring/design-patterns/template-pattern/template-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-distribute/zookeeper/zookeeper.iml" filepath="$PROJECT_DIR$/about-distribute/zookeeper/zookeeper.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-distribute/zookeeper-distribute-lock/zookeeper-distribute-lock.iml" filepath="$PROJECT_DIR$/about-distribute/zookeeper-distribute-lock/zookeeper-distribute-lock.iml" />
