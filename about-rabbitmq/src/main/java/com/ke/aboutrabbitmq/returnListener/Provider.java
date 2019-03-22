@@ -41,7 +41,7 @@ public class Provider {
         // mandatory 为false情况下
 //        channel.basicPublish(exchangeName, rountingKey, false, false, null, msg.getBytes());
 
-        // mandatory 为false情况下
+        // mandatory 为true情况下
 //        channel.basicPublish(exchangeName, rountingKey, true, false, null, msg.getBytes());
         channel.basicPublish(exchangeName, rountingErrorKey, false, false, null, msg.getBytes());
 //        channel.basicPublish(exchangeName, rountingErrorKey, true, false, null, msg.getBytes());

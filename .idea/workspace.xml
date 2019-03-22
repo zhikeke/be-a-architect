@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f3ce1ddb-7fff-475c-9907-2afef81e4093" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/returnListener/Provider.java" beforeDir="false" afterPath="$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/returnListener/Provider.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/about-distribute/dubbo/dubbo-order/order-provider-2/target/" />
     <ignored path="$PROJECT_DIR$/about-spring/target/" />
@@ -43,21 +44,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/dlx/Consumer.java">
+        <entry file="file://$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/returnListener/Provider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="607">
+              <caret line="44" column="67" lean-forward="true" selection-start-line="44" selection-start-column="67" selection-end-line="44" selection-end-column="67" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/dlx/Provider.java">
+        <entry file="jar://D:/maven_repository/repository/com/rabbitmq/amqp-client/5.6.0/amqp-client-5.6.0.jar!/com/rabbitmq/client/Channel.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="297">
+              <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/maven_repository/repository/com/rabbitmq/amqp-client/5.6.0/amqp-client-5.6.0.jar!/com/rabbitmq/client/impl/recovery/AutorecoveringChannel.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="220" column="82" selection-start-line="220" selection-start-column="73" selection-end-line="220" selection-end-column="82" />
             </state>
           </provider>
         </entry>
@@ -99,7 +109,6 @@
         <option value="$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/confirm/Consumer4DirectExchange.java" />
         <option value="$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/confirm/Consumer.java" />
         <option value="$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/confirm/Provider.java" />
-        <option value="$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/returnListener/Provider.java" />
         <option value="$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/returnListener/Consumer.java" />
         <option value="$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/consumerLimiter/Provider.java" />
         <option value="$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/consumerLimiter/Consumer.java" />
@@ -107,6 +116,7 @@
         <option value="$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/tlx/Consumer.java" />
         <option value="$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/dlx/Provider.java" />
         <option value="$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/dlx/Consumer.java" />
+        <option value="$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/returnListener/Provider.java" />
       </list>
     </option>
   </component>
@@ -148,8 +158,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-364" />
-    <option name="y" value="-11" />
+    <option name="x" value="83" />
+    <option name="y" value="-8" />
     <option name="width" value="1400" />
     <option name="height" value="977" />
   </component>
@@ -159,6 +169,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -209,28 +220,19 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="aboutrabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="dlx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="be-a-architect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="be-a-architect" type="462c0819:PsiDirectoryNode" />
-              <item name="about-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="returnListener" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553091737419" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553152346950" />
     <property name="jdk.selected.JAVA_MODULE" value="1.7" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/about-spring/spring-mvc/target/spring-mvc-1.0-SNAPSHOT.war" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -494,7 +496,10 @@
       <workItem from="1552967274986" duration="92000" />
       <workItem from="1552967612186" duration="1912000" />
       <workItem from="1553046875644" duration="17565000" />
-      <workItem from="1553085614392" duration="4019000" />
+      <workItem from="1553085614392" duration="4309000" />
+      <workItem from="1553129777442" duration="1374000" />
+      <workItem from="1553152261729" duration="161000" />
+      <workItem from="1553216419918" duration="44000" />
     </task>
     <task id="LOCAL-00001" summary="1. 加入spring-mvc模块  简单mvc&#10;2. 加入rabbitmq模块">
       <created>1553058087407</created>
@@ -538,11 +543,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553088874208</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="rabbitMQ dlx 死信对列">
+      <created>1553091776569</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1553091776569</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25440000" />
+    <option name="totallyTimeSpent" value="27309000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -563,11 +575,11 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.23400854" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.24200426" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.35900217" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.30043384" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.29175705" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -643,16 +655,10 @@
     <MESSAGE value="rabbitMQ confirm机制" />
     <MESSAGE value="rabbitMQ return机制" />
     <MESSAGE value="rabbitMQ limit 限流机制" />
-    <option name="LAST_COMMIT_MESSAGE" value="rabbitMQ limit 限流机制" />
+    <MESSAGE value="rabbitMQ dlx 死信对列" />
+    <option name="LAST_COMMIT_MESSAGE" value="rabbitMQ dlx 死信对列" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/about-distribute/active-mq/src/main/java/com/ke/consumer/ActiveMqTopicConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/about-distribute/zookeeper/src/main/java/com/ke/ZookeeperServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -729,13 +735,6 @@
     <entry file="file://$PROJECT_DIR$/about-distribute/dubbo/dubbo-user/src/main/java/com/ke/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/AboutRabbitmqApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
@@ -888,13 +887,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/returnListener/Provider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-104">
-          <caret line="28" column="50" lean-forward="true" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/maven_repository/repository/com/rabbitmq/amqp-client/5.6.0/amqp-client-5.6.0.jar!/com/rabbitmq/client/DeliverCallback.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -906,13 +898,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven_repository/repository/com/rabbitmq/amqp-client/5.6.0/amqp-client-5.6.0.jar!/com/rabbitmq/client/impl/recovery/AutorecoveringChannel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="423" column="18" selection-start-line="423" selection-start-column="18" selection-end-line="423" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -930,13 +915,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/maven_repository/repository/com/rabbitmq/amqp-client/5.6.0/amqp-client-5.6.0.jar!/com/rabbitmq/client/Channel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="61" column="56" lean-forward="true" selection-start-line="61" selection-start-column="56" selection-end-line="61" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/maven_repository/repository/com/rabbitmq/amqp-client/5.6.0/amqp-client-5.6.0.jar!/com/rabbitmq/client/AMQP.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-156">
@@ -944,31 +922,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/tlx/Consumer.java">
+    <entry file="file://$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/tlx/Consumer.java" />
+    <entry file="file://$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/tlx/Provider.java" />
+    <entry file="file://$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/dlx/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/tlx/Provider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        <state relative-caret-position="26">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/dlx/Provider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/dlx/Consumer.java">
+    <entry file="file://$PROJECT_DIR$/about-rabbitmq/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/AboutRabbitmqApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven_repository/repository/com/rabbitmq/amqp-client/5.6.0/amqp-client-5.6.0.jar!/com/rabbitmq/client/Channel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven_repository/repository/com/rabbitmq/amqp-client/5.6.0/amqp-client-5.6.0.jar!/com/rabbitmq/client/impl/recovery/AutorecoveringChannel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="220" column="82" selection-start-line="220" selection-start-column="73" selection-end-line="220" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about-rabbitmq/src/main/java/com/ke/aboutrabbitmq/returnListener/Provider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="44" column="67" lean-forward="true" selection-start-line="44" selection-start-column="67" selection-end-line="44" selection-end-column="67" />
         </state>
       </provider>
     </entry>
