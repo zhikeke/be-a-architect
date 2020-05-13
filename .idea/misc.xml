@@ -8,6 +8,11 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/about-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/abount-jdk/pom.xml" />
+        <option value="$PROJECT_DIR$/abount-jdk/java-agent/pom.xml" />
+        <option value="$PROJECT_DIR$/about-proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/about-leetcode/pom.xml" />
+        <option value="$PROJECT_DIR$/about-springboot/pom.xml" />
       </list>
     </option>
   </component>

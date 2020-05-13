@@ -6,42 +6,54 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="about-rabbitmq" />
-        <module name="active-mq" />
-        <module name="all-test" />
-        <module name="build-plugin" />
-        <module name="delegate-pattern" />
-        <module name="dubbo-user" />
-        <module name="factory-pattern" />
-        <module name="io" />
-        <module name="netty-chat" />
-        <module name="netty-rpc" />
-        <module name="netty-tomcat" />
-        <module name="order-api" />
-        <module name="order-privoder" />
-        <module name="order-provider-2" />
-        <module name="prototype-pattern" />
-        <module name="proxy-pattern" />
-        <module name="rmi" />
-        <module name="singleton-pattern" />
-        <module name="spring-aop" />
-        <module name="spring-jdbc" />
-        <module name="spring-mvc" />
-        <module name="template-pattern" />
         <module name="zookeeper" />
-        <module name="zookeeper-distribute-lock" />
+        <module name="delegate-pattern" />
+        <module name="netty-tomcat" />
+        <module name="about-proxy" />
+        <module name="spring-aop" />
+        <module name="factory-pattern" />
+        <module name="order-privoder" />
+        <module name="rmi" />
+        <module name="proxy-pattern" />
+        <module name="singleton-pattern" />
+        <module name="spring-jdbc" />
+        <module name="prototype-pattern" />
+        <module name="io" />
+        <module name="all-test" />
+        <module name="dubbo-user" />
         <module name="zookeeper-master-election" />
+        <module name="spring-mvc" />
+        <module name="common-sense" />
+        <module name="template-pattern" />
+        <module name="order-api" />
+        <module name="abount-jdk" />
+        <module name="about-springboot" />
+        <module name="build-plugin" />
+        <module name="order-provider-2" />
+        <module name="about-rabbitmq" />
+        <module name="netty-chat" />
+        <module name="about-leetcode" />
+        <module name="java-agent" />
+        <module name="active-mq" />
+        <module name="netty-rpc" />
+        <module name="zookeeper-distribute-lock" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="abount-jdk" target="1.8" />
       <module name="about-distribute" target="1.5" />
+      <module name="about-jdk" target="1.8" />
+      <module name="about-leetcode" target="1.8" />
       <module name="about-maven" target="1.5" />
+      <module name="about-proxy" target="1.8" />
       <module name="about-rabbitmq" target="1.8" />
       <module name="about-spring" target="1.5" />
+      <module name="about-springboot" target="1.8" />
       <module name="active-mq" target="1.5" />
       <module name="all-test" target="1.5" />
       <module name="be-a-architect" target="1.5" />
       <module name="build-plugin" target="1.5" />
+      <module name="common-sense" target="6" />
       <module name="delegate-pattern" target="1.5" />
       <module name="design-patterns" target="1.5" />
       <module name="dubbo" target="1.5" />
@@ -49,6 +61,7 @@
       <module name="dubbo-user" target="1.5" />
       <module name="factory-pattern" target="1.5" />
       <module name="io" target="1.5" />
+      <module name="java-agent" target="1.8" />
       <module name="netty-chat" target="1.5" />
       <module name="netty-rpc" target="1.5" />
       <module name="netty-tomcat" target="1.5" />
@@ -70,7 +83,13 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="abount-jdk" options="-parameters" />
+      <module name="about-jdk" options="-parameters" />
+      <module name="about-leetcode" options="-parameters" />
+      <module name="about-proxy" options="-parameters" />
       <module name="about-rabbitmq" options="-parameters" />
+      <module name="about-springboot" options="-parameters" />
+      <module name="java-agent" options="-parameters" />
     </option>
   </component>
 </project>

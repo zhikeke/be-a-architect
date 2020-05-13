@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.mortbay.jetty:jetty:7.0.0.pre5">
     <CLASSES>
-      <root url="jar://D:/maven_repository/repository/org/mortbay/jetty/jetty/7.0.0.pre5/jetty-7.0.0.pre5.jar!/" />
+      <root url="jar://$APPLICATION_HOME_DIR$/bin/D:/maven_repository/repository/org/mortbay/jetty/jetty/7.0.0.pre5/jetty-7.0.0.pre5.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://D:/maven_repository/repository/org/mortbay/jetty/jetty/7.0.0.pre5/jetty-7.0.0.pre5-javadoc.jar!/" />
+      <root url="jar://$APPLICATION_HOME_DIR$/bin/D:/maven_repository/repository/org/mortbay/jetty/jetty/7.0.0.pre5/jetty-7.0.0.pre5-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://D:/maven_repository/repository/org/mortbay/jetty/jetty/7.0.0.pre5/jetty-7.0.0.pre5-sources.jar!/" />
+      <root url="jar://$APPLICATION_HOME_DIR$/bin/D:/maven_repository/repository/org/mortbay/jetty/jetty/7.0.0.pre5/jetty-7.0.0.pre5-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

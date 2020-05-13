@@ -13,6 +13,7 @@
         <module>about-maven</module>
         <module>about-spring</module>
         <module>about-distribute</module>
+        <module>common-sense</module>
     </modules>
 
     <dependencyManagement>
